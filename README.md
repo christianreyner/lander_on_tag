@@ -1,8 +1,13 @@
 # Lander Setup
 
 Works on:
-- Raspberry Pi 5 (8GB)
-- Raspberry Pi OS 12 (Bookworm)
+- Raspberry Pi 5 (8GB) - Raspberry Pi OS 12 (Bookworm)
+- Camera: Oak D Lite (single mono cam 640x480)
+
+## Setup
+- Do not forget to setup tailscale first if you want to enable the through internet forwarding
+- under run_lander.sh, do change the /tty**** according to your connected port
+- Adjust the tag coordinate, ID, etc. accordingly
 
 ## Dependencies
 ```bash
